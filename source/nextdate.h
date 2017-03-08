@@ -32,4 +32,22 @@ class Date {
 
 };
 
+enum YearType {
+    YEAR_LEAP, 
+    YEAR_COMMON
+};
+
+enum MonthType {
+    MONTH_31DAYS, 
+    MONTH_30DAYS, 
+    MONTH_FEB
+};
+
+enum DayType {
+    DAY_COMMON, 
+    DAY_29DAY, 
+    DAY_30DAY, 
+    DAY_31DAY
+};
+
 #endif
